@@ -12,9 +12,7 @@ public class Main {
 		word.setWord(data);
 		System.out.println("Sua frase é: " + word.getWord());
 		System.out.println("Sua frase tem "+ word.wordLenght()+" caracteres");
-		System.out.println("Sua frase ao contrário é: " + word.doReverseWord());
-		
-		
+		System.out.println("Sua frase ao contrário é: " + word.doReverseWord());		
 	}
 
 }
